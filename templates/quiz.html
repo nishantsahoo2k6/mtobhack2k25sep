@@ -1,20 +1,11 @@
-{% extends 'base.html' %}{% block content %}
-<div class="bg-white rounded p-6">
-  <h2 class="text-xl font-bold">Quick Quiz</h2>
-  <p class="mt-2">{{ q.prompt }}</p>
-  <div class="mt-4 space-y-2">
-    {% for c in q.choices %}
-      <button onclick="check('{{ c }}')" class="w-full text-left p-2 border rounded">{{ c }}</button>
-    {% endfor %}
-  </div>
-  <div id="result" class="mt-4 text-sm text-gray-700"></div>
-</div>
-<script>
-function check(choice){
-  const ans = "{{ q.answer }}";
-  const res = document.getElementById('result');
-  if(choice === ans){ res.textContent = 'Correct! ' + "{{ q.explain }}"; res.style.color = 'green'; }
-  else { res.textContent = 'Not quite — correct answer: ' + ans; res.style.color = 'crimson'; }
-}
-</script>
-{% endblock %}
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Quiz — Mystic Tribes</title></head>
+  <body>
+    <div style="max-width:800px;margin:40px auto;font-family:Arial,Helvetica,sans-serif">
+      <h1>Quiz (coming soon)</h1>
+      <p>This is a placeholder page for the Quiz. Replace with your real quiz content later.</p>
+      <p><a href="{{ url_for('index') }}">Back to Home</a></p>
+    </div>
+  </body>
+</html>

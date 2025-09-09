@@ -32,13 +32,27 @@ def destination(slug):
     dest = next((d for d in data["destinations"] if d["slug"]==slug), None)
     if not dest:
         return redirect(url_for("index"))
-    return render_template("destination.html", d=dest)
+    # pass both `d` (existing templates) and `district` (newer template I suggested)
+    return render_template("destination.html", d=dest, district=dest)
 
 @app.route("/random")
 def random_dest():
     data = load_data()
     dest = random.choice(data["destinations"])
     return redirect(url_for("destination", slug=dest["slug"]))
+
+# alias endpoints some templates might call (prevent BuildError)
+@app.route("/random_dest")
+def random_dest_alias():
+    return redirect(url_for("random_dest"))
+
+@app.route("/surprise_me")
+def surprise_me():
+    return redirect(url_for("random_dest"))
+
+@app.route("/surprise")
+def surprise_alias():
+    return redirect(url_for("random_dest"))
 
 @app.route("/quiz")
 def quiz():
@@ -52,26 +66,8 @@ def quiz():
         "explain": choices[0].get("fun_fact","")
     }
     return render_template("quiz.html", q=question)
-@app.route("/ganjam")
-def ganjam():
-    return render_template("ganjam.html")
-
-@app.route("/ganjam/festivals")
-def ganjam_festivals():
-    return render_template("ganjam_festivals.html")
-
-@app.route("/ganjam/tribes")
-def ganjam_tribes():
-    return render_template("ganjam_tribes.html")
-
-@app.route("/ganjam/art")
-def ganjam_art():
-    return render_template("ganjam_art.html")
-
-@app.route("/ganjam/hidden")
-def ganjam_hidden():
-    return render_template("ganjam_hidden.html")
-
 
 if __name__ == "__main__":
+    # debug True for easy dev — remove or set False before deploying
     app.run(debug=True, host="0.0.0.0", port=5000)
+

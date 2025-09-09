@@ -1,150 +1,179 @@
 {
   "destinations": [
     {
-      "name": "Ganjam",
-      "slug": "ganjam-odisha",
+      "name": "Koraput",
+      "slug": "koraput-odisha",
       "state": "Odisha",
       "category": "cultural",
-      "description": "Ganjam district — known for rich textile traditions, Danda Nata and Kandhei Jatra festivals, and coastal ecotourism.",
-      "fun_fact": "Famous for silk Patto sarees and palm-leaf arts.",
+      "thumb": "images/koraput1.jpg",
+      "description": "Koraput — tribal heartland known for Kotpad weave, Duduma falls, rich tribal festivals like Parab and scenic highlands.",
+      "fun_fact": "Kotpad handloom and tribal weaving traditions are a unique Koraput specialty.",
       "festivals": [
         {
-          "name": "Danda Nata",
-          "description": "A ritual dance drama dedicated to Goddess Kali and Lord Shiva, performed annually in Chaitra (March-April). Dancers, called 'danduas', undergo self-imposed austerities and perform barefoot on streets, enact hard rituals like Dhuli Danda (mud rituals), Pani Danda (water rituals), and Agni Danda (fire rituals). This intense festival has origins dating back to the 8th and 9th centuries."
-        },
-        {
-          "name": "Kandhei Jatra",
-          "description": "An age-old festival featuring traditional wooden dolls (Kandhei), mainly celebrated in select parts of Ganjam. In this festival dolls are offered to budhi thakurani(an age old temple in Berhampur)."
-        }
-      ],
-      "crafts": [
-        {
-          "name": "Patto Silk",
-          "description": "While Ganjam is known as the Silk City, its unique weaving patterns and traditional Odia designs, especially the Patto sarees, are deeply tied to ceremonial events and represent living heritage."
-        },
-        {
-          "name": "Palm Leaf Art",
-          "description": "Decorative arts that are integral to Ganjam’s identity, yet remain less publicized compared to Odisha’s mainstream crafts."
+          "name": "Parab",
+          "description": "A major tribal festival featuring dances, music, and traditional rituals celebrated by various tribes of Koraput."
         }
       ],
       "tribes": [
-        {
-          "name": "Saora",
-          "note": "The Saora tribe is a prominent group in the undivided Ganjam district and remains a subject of research and interest in the region. "
-        },
-        {
-          "name": "Kandha Gauda",
-          "note": "A specific group within the Kandha community found in the district. "
-        }
+        { "name": "Paraja", "description": "One of the major tribal groups with rich cultural traditions." },
+        { "name": "Bonda", "description": "A distinct tribe known for traditional attire and crafts." }
       ],
-      "images": [
-        "image_2025-09-05_191334040.png",
-        "1000139186.jpg",
-        "1000139193.jpg"
+      "crafts": [
+        { "name": "Kotpad Weaving", "description": "Handloom weaving with natural dyes and distinctive geometric designs." }
       ],
-      "tags": [
-        "textile",
-        "festival",
-        "coast"
+      "hidden_jewels": [
+        { "name": "Duduma Falls", "description": "A spectacular waterfall set in lush hills — great for trekking." }
       ],
-      "best_time": "Oct–Feb",
-      "rating": 4.5,
-      "accessibility": {
-        "wheelchair_accessible": false,
-        "audio_guides": false
-      }
+      "gallery": [
+        "images/koraput1.jpg"
+      ],
+      "rating": 4.6,
+      "best_time": "Oct–Feb"
     },
+
     {
       "name": "Kandhamal",
       "slug": "kandhamal-odisha",
       "state": "Odisha",
       "category": "cultural",
-      "description": "Kandhamal — hill district famous for tribal cultures, Dokra craft and scenic hill stations like Daringbadi.",
-      "fun_fact": "Called 'Kashmir of Odisha' for its pine forests in Daringbadi.",
+      "thumb": "images/kandhamal1.jpg",
+      "description": "Kandhamal — hill district famous for tribal cultures, Dokra craft, and scenic hill stations like Daringbadi.",
+      "fun_fact": "Known for scenic hilltop views and tribal handicrafts.",
       "festivals": [
         {
-          "name": "Kandhamal Shivratri",
-          "description": "Local Shivratri celebrations with tribal elements."
-        }
-      ],
-      "crafts": [
-        {
-          "name": "Dokra",
-          "description": "Metal casting in lost-wax technique."
+          "name": "Local Tribal Festivals",
+          "description": "Various tribal celebrations connected to local harvests and traditions; dances and rituals are common."
         }
       ],
       "tribes": [
-        {
-          "name": "Kandha",
-          "note": "Major tribal group."
-        },
-        {
-          "name": "Dongria Kondh",
-          "note": "Traditional horticulture practices."
-        }
+        { "name": "Kandha", "description": "A major tribal community in Kandhamal known for distinct cultural practices." },
+        { "name": "Khond", "description": "An indigenous group present in the region." }
       ],
-      "images": [
-        "1000139203.jpg",
-        "1000139212.jpg",
-        "1000139215.jpg"
+      "crafts": [
+        { "name": "Dokra Metalwork", "description": "Traditional lost-wax metal casting used to create decorative and ritual objects." }
       ],
-      "tags": [
-        "hill",
-        "tribal",
-        "crafts"
+      "hidden_jewels": [
+        { "name": "Daringbadi Hill Station", "description": "Often called the 'Kashmir of Odisha' for its pleasant climate." }
       ],
-      "best_time": "Oct–Mar",
+      "gallery": [
+        "images/kandhamal1.jpg"
+      ],
       "rating": 4.4,
-      "accessibility": {
-        "wheelchair_accessible": false,
-        "audio_guides": false
-      }
+      "best_time": "Oct–Mar"
     },
+
     {
-      "name": "Koraput",
-      "slug": "koraput-odisha",
+      "name": "Ganjam",
+      "slug": "ganjam-odisha",
       "state": "Odisha",
       "category": "cultural",
-      "description": "Koraput — tribal heartland with Kotpad weave, Duduma falls, and rich tribal festivals like Parab.",
-      "fun_fact": "Kotpad fabrics are dyed with natural dyes and show tribal motifs.",
+      "thumb": "images/ganjam1.jpg",
+      "description": "Ganjam district — known for rich textile traditions, Danda Nacha, Kandhei Jatra, Bharata Lila, coastal ecotourism and vibrant crafts.",
+      "fun_fact": "Famous for silk Patto sarees, Bomkai weaving, and brass 'pitala macha' (fish crafts).",
       "festivals": [
         {
-          "name": "Parab",
-          "description": "District-level festival showcasing tribes."
-        }
-      ],
-      "crafts": [
+          "name": "Danda Nacha / Danda Nata",
+          "description": "A ritual dance drama dedicated to Goddess Kali and Lord Shiva, performed annually in Chaitra (March-April). Dancers, called 'danduas', undergo self-imposed austerities and perform barefoot on streets, enact hard rituals like Dhuli Danda (mud rituals), Pani Danda (water rituals), and Agni Danda (fire rituals). This intense festival has origins dating back to the 8th and 9th centuries."
+        },
         {
-          "name": "Kotpad Weaving",
-          "description": "Handloom with natural dyes."
+          "name": "Kandhei Jatra",
+          "description": "An age-old festival featuring traditional wooden dolls (Kandhei), mainly celebrated in select parts of Ganjam. In this festival dolls are offered to budhi thakurani (an age old temple in Berhampur)."
+        },
+        {
+          "name": "Bharata Lila (Duari Nata)",
+          "description": "It is a performing theater form of Ganjam district of Odisha. The plot is based on characters of the Mahabharata, thus the name of the form. Because of the importance of a central character Duari, Arjuna's sentry, it is also called Duari Nata or Duari Lila. The focal point of the plot is the story of Arjuna & Subhadra's romance, which is why it is also known as Subhadra Harana."
         }
       ],
       "tribes": [
+        { "name": "Saora (Sabar)", "description": "The Saora tribe is a prominent group in the undivided Ganjam district and remains a subject of research and interest in the region." },
+        { "name": "Kandha Gauda", "description": "A specific group within the Kandha community found in the district." },
+        { "name": "Dal", "description": "This tribe is also listed as being present in the Ganjam region." }
+      ],
+      "crafts": [
         {
-          "name": "Bonda",
-          "note": "Known for distinctive ornaments."
+          "name": "Silk Saree Weaving",
+          "description": "While Ganjam is known as the 'Silk City,' its unique weaving patterns and traditional Odia designs, especially the Patto sarees, are deeply tied to ceremonial events and represent living heritage."
         },
         {
-          "name": "Gadaba",
-          "note": "Famous for Dhemsa dance."
+          "name": "Ganjam Fish (Pitala Macha)",
+          "description": "Traditional, flexible brass fish toys crafted by the Kansari brass-worker community, considered auspicious and often found in bridal trousseaus; each piece involves intricate handwork and reflects ancient metalwork skills."
+        },
+        {
+          "name": "Bomkai Silk Sarees",
+          "description": "While not strictly tribal, the weaving of Bomkai sarees by artisans in Ganjam reflects a blend of tribal motifs and local weaving traditions, highly valued in Odisha."
+        },
+        {
+          "name": "Stone Carving",
+          "description": "Hereditary artisans (Sttapatis and Silpis) continue to create intricate temple sculptures and decorative items, maintaining centuries-old techniques."
+        },
+        {
+          "name": "Palm Leaf Paintings",
+          "description": "Decorative arts that are integral to Ganjam’s identity, yet remain less publicized compared to Odisha’s mainstream crafts."
         }
       ],
-      "images": [
-        "WhatsApp Image 2025-09-06 at 10.37.56.jpeg",
-        "WhatsApp Image 2025-09-06 at 10.37.56 (1).jpeg",
-        "WhatsApp Image 2025-09-06 at 10.37.57.jpeg"
+      "hidden_jewels": [
+        {
+          "name": "Blackbuck Conservation Villages",
+          "description": "About 70 villages in the northern Eastern Ghats of Ganjam (particularly in the Bhetnoi village) have conserved shy blackbucks for over a century. Tourists can enjoy wildlife spotting and guided nature walks to see these near-threatened antelopes in open grasslands surrounded by hills."
+        },
+        {
+          "name": "Taptapani Hot Sulfur Springs",
+          "description": "Known for its medicinal properties, Taptapani is a hot spring spot where visitors can experience natural warm waters and scenic surroundings, offering a tranquil escape."
+        },
+        {
+          "name": "Tampara Lake",
+          "description": "A sweet water lake near National Highway No.5 that offers serene boat rides and gentle water sport activities in a natural setting, away from busy tourist crowds."
+        },
+        {
+          "name": "Adventure Sports near Berhampur",
+          "description": "In and around Berhampur in Ganjam, adventure seekers can find opportunities for skydiving, paragliding, bungee jumping, white-water rafting, scuba diving, and jet skiing. These thrilling sports are available but not heavily advertised, making them hidden gems for adrenaline lovers."
+        },
+        {
+          "name": "Sonapur (Sonpur) Beach",
+          "description": "Situated around 30 km from Berhampur, Sonapur Sea Beach is a pristine and quiet destination with clean sands and scenic views. Even locals acknowledge its untouched, peaceful vibe and infrequent visitors."
+        },
+        {
+          "name": "Jaugada Fort",
+          "description": "An ancient fort site dating back to the Mauryan era, associated with Emperor Ashoka. Archaeological remains here signify its importance as a historical military and administrative site."
+        },
+        {
+          "name": "Chilika Lake (Rambha)",
+          "description": "Rambha area of Chilika Lake has historical significance due to British-era establishments and as part of the ancient trade route."
+        },
+        {
+          "name": "Kalijai Temple",
+          "description": "It is a famous and revered temple located on an island in Chilika Lake, Odisha. It is dedicated to Goddess Kalijai, regarded as an incarnation of Goddess Kali and the first Mahavidya of the Dasmahavidyas. According to local legend, the temple’s origin traces back to a tragic story of a newlywed girl named Jaai, who, along with her father, was crossing Chilika Lake by boat to reach her husband's village on an island. A severe cyclone caused the boat to capsize, and while the boatman and her father survived, Jaai drowned. The local people began worshipping her as the goddess Kalijai, symbolizing protection for those traveling on the lake."
+        },
+        {
+          "name": "Balakumari Temple",
+          "description": "It is a renowned Hindu temple situated atop the scenic Kerandimala mountain in Ganjam district, Odisha. The temple is dedicated to Maa Balakumari, a form of Goddess Durga, who is believed to fulfill the wishes of devotees. The temple was built around the 8th century CE during the Bhaumakara dynasty and features intricate Odishan architecture with carvings of divine beings."
+        },
+        {
+          "name": "Panchama Temple (Sidha Vinayaka)",
+          "description": "Also known as Sidha Vinayaka Temple Panchama, a sacred Hindu shrine located about 16 km from Berhampur in the village of Panchama. Dedicated to Lord Ganesha worshipped as Siddha Vinayaka, the idol is housed in the hollow trunk of a large Peepal tree which adds to the temple’s unique spiritual aura. The temple's origins date back to the 8th century AD."
+        },
+        {
+          "name": "Bariapathara / Bariapathar Waterfall",
+          "description": "Located at the border of Ganjam and formed by the Mahendra Tanaya river, Bariapathar is a scenic and secluded waterfall surrounded by hills. It’s considered one of the most beautiful and largest hidden waterfalls in Ganjam, ideal for nature lovers and picnics."
+        },
+        {
+          "name": "Budhakhol Waterfall",
+          "description": "Nestled amidst the picturesque landscapes of Ganjam near Buguda, Budhakhol Waterfall and its surrounding cave temples offer serene beauty and a touch of mystery. The area around the waterfall is dotted with ancient Buddhist caves, making it an interesting offbeat destination."
+        },
+        {
+          "name": "Bagha Chanchada (Pather Chanchada) Waterfall",
+          "description": "A tourist spot in the Chikitipentho region of Ganjam, also called Pather Chanchada. Scenic and quieter compared to other falls."
+        },
+        {
+          "name": "Siddha Bhairabi Temple",
+          "description": "A renowned Shakti shrine located in Mantridi village, about 18 kilometers from Berhampur. Dedicated to Goddess Bhairavi (Eka Pada Bhairavi). The temple complex houses 108 subsidiary shrines dedicated to various Hindu deities."
+        }
       ],
-      "tags": [
-        "tribal",
-        "weaving",
-        "waterfall"
+      "gallery": [
+        "images/ganjam1.jpg"
       ],
-      "best_time": "Oct–Feb",
-      "rating": 4.6,
-      "accessibility": {
-        "wheelchair_accessible": false,
-        "audio_guides": false
-      }
+      "rating": 4.5,
+      "best_time": "Oct–Feb"
     }
   ]
 }
