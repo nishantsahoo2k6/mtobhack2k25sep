@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Discover Ganjam</h1>
+<p class="mb-6">Ganjam is a vibrant district of Odisha, famous for its festivals, tribal communities, arts, crafts, and hidden natural gems.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <a href="{{ url_for('ganjam_festivals') }}" class="p-6 bg-white shadow rounded hover:shadow-lg">
+    <h2 class="text-xl font-semibold">Festivals</h2>
+    <p>Explore Danda Nacha, Kandhei Jatra, Bharata Lila and more.</p>
+  </a>
+  <a href="{{ url_for('ganjam_tribes') }}" class="p-6 bg-white shadow rounded hover:shadow-lg">
+    <h2 class="text-xl font-semibold">Tribes</h2>
+    <p>Learn about Saora, Kandha Gauda, Dal and other indigenous groups.</p>
+  </a>
+  <a href="{{ url_for('ganjam_art') }}" class="p-6 bg-white shadow rounded hover:shadow-lg">
+    <h2 class="text-xl font-semibold">Art & Culture</h2>
+    <p>Silk sarees, stone carvings, palm leaf paintings and more.</p>
+  </a>
+  <a href="{{ url_for('ganjam_hidden') }}" class="p-6 bg-white shadow rounded hover:shadow-lg">
+    <h2 class="text-xl font-semibold">Hidden Jewels</h2>
+    <p>Waterfalls, temples, hot springs, wildlife and untouched beaches.</p>
+  </a>
+</div>
+{% endblock %}

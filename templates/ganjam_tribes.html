@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-4">Tribal Communities of Ganjam</h1>
+
+<ul class="list-disc list-inside space-y-2">
+  <li><strong>Saora (Sabar):</strong> A prominent tribe known for unique traditions, studied for their cultural depth.</li>
+  <li><strong>Kandha Gauda:</strong> A subgroup of the Kandha community living in Ganjam.</li>
+  <li><strong>Dal:</strong> Another tribal group historically associated with the region.</li>
+</ul>
+
+<img src="{{ url_for('static', filename='img/tribes_ganjam.jpg') }}" alt="Tribes of Ganjam" class="rounded shadow mt-4">
+{% endblock %}

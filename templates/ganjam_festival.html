@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-4">Festivals of Ganjam</h1>
+
+<div class="space-y-6">
+  <div>
+    <h2 class="text-xl font-semibold">Danda Nacha / Nata</h2>
+    <p>A ritual dance drama dedicated to Goddess Kali and Lord Shiva, performed in Chaitra (March-April). Dancers (‘danduas’) undergo austerities and perform barefoot with mud, water, and fire rituals. Its origins date back to the 8th–9th centuries.</p>
+    <img src="{{ url_for('static', filename='img/danda_nacha.jpg') }}" alt="Danda Nacha" class="rounded shadow mt-2">
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold">Kandhei Jatra</h2>
+    <p>An age-old festival featuring traditional wooden dolls, offered to Budhi Thakurani temple in Berhampur. The festival reflects Ganjam’s folk traditions.</p>
+    <img src="{{ url_for('static', filename='img/kandhei_jatra.jpg') }}" alt="Kandhei Jatra" class="rounded shadow mt-2">
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold">Bharata Lila</h2>
+    <p>A performing theatre based on the Mahabharata, also called Duari Nata. It highlights Arjuna & Subhadra’s romance, blending music, acting, and devotion.</p>
+    <img src="{{ url_for('static', filename='img/bharata_lila.jpg') }}" alt="Bharata Lila" class="rounded shadow mt-2">
+  </div>
+</div>
+{% endblock %}

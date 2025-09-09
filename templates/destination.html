@@ -1,0 +1,61 @@
+{% extends 'base.html' %}{% block content %}
+<article class="bg-white rounded-lg shadow p-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="md:col-span-2">
+      <h1 class="text-2xl font-bold">{{ d.name }}</h1>
+      <p class="text-sm text-gray-600">{{ d.state }} • {{ d.category }} • Best time: {{ d.best_time or 'Any' }}</p>
+      <p class="mt-3">{{ d.description }}</p>
+
+      <h3 class="mt-4 font-semibold">Fun Fact</h3>
+      <p class="text-gray-700">{{ d.fun_fact }}</p>
+
+      <h3 class="mt-4 font-semibold">Festivals & Traditions</h3>
+      <ul class="list-disc ml-5">
+        {% for f in d.festivals %}<li><b>{{ f.name }}</b>: {{ f.description }}</li>{% endfor %}
+      </ul>
+
+      <h3 class="mt-4 font-semibold">Crafts & Textiles</h3>
+      <ul class="list-disc ml-5">
+        {% for c in d.crafts %}<li><b>{{ c.name }}</b>: {{ c.description }}</li>{% endfor %}
+      </ul>
+    </div>
+    <aside class="p-2">
+      <div class="space-y-3">
+        <div class="bg-gray-50 p-2 rounded">
+          <p class="text-sm">Tribes:</p>
+          <ul class="text-sm list-disc ml-5">
+            {% for t in d.tribes %}<li>{{ t.name }} - {{ t.note }}</li>{% endfor %}
+          </ul>
+        </div>
+        <div class="bg-gray-50 p-2 rounded">
+          <p class="text-sm">Accessibility</p>
+          <ul class="text-sm list-disc ml-5">
+            <li>Wheelchair: {{ 'Yes' if d.accessibility.wheelchair_accessible else 'No' }}</li>
+            <li>Audio guides: {{ 'Yes' if d.accessibility.audio_guides else 'No' }}</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <h3 class="mt-4 font-semibold">Gallery</h3>
+  <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-2">
+    {% for img in d.images %}
+      <img src="{{ url_for('static', filename='images/' + img) }}" alt="" class="cursor-pointer object-cover h-40 w-full" onclick="openLightbox('{{ url_for('static', filename='images/' + img) }}')">
+    {% endfor %}
+  </div>
+</article>
+
+<div id="lightbox" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);align-items:center;justify-content:center;z-index:60">
+  <img id="lightbox-img" src="" style="max-width:90%;max-height:85%;border-radius:8px">
+</div>
+
+<script>
+function openLightbox(src){
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  img.src = src; lb.style.display = 'flex';
+  lb.addEventListener('click', ()=> lb.style.display='none');
+}
+</script>
+{% endblock %}

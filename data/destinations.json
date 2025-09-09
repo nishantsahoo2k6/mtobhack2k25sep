@@ -1,0 +1,150 @@
+{
+  "destinations": [
+    {
+      "name": "Ganjam",
+      "slug": "ganjam-odisha",
+      "state": "Odisha",
+      "category": "cultural",
+      "description": "Ganjam district — known for rich textile traditions, Danda Nata and Kandhei Jatra festivals, and coastal ecotourism.",
+      "fun_fact": "Famous for silk Patto sarees and palm-leaf arts.",
+      "festivals": [
+        {
+          "name": "Danda Nata",
+          "description": "A ritual dance drama dedicated to Goddess Kali and Lord Shiva, performed annually in Chaitra (March-April). Dancers, called 'danduas', undergo self-imposed austerities and perform barefoot on streets, enact hard rituals like Dhuli Danda (mud rituals), Pani Danda (water rituals), and Agni Danda (fire rituals). This intense festival has origins dating back to the 8th and 9th centuries."
+        },
+        {
+          "name": "Kandhei Jatra",
+          "description": "An age-old festival featuring traditional wooden dolls (Kandhei), mainly celebrated in select parts of Ganjam. In this festival dolls are offered to budhi thakurani(an age old temple in Berhampur)."
+        }
+      ],
+      "crafts": [
+        {
+          "name": "Patto Silk",
+          "description": "While Ganjam is known as the Silk City, its unique weaving patterns and traditional Odia designs, especially the Patto sarees, are deeply tied to ceremonial events and represent living heritage."
+        },
+        {
+          "name": "Palm Leaf Art",
+          "description": "Decorative arts that are integral to Ganjam’s identity, yet remain less publicized compared to Odisha’s mainstream crafts."
+        }
+      ],
+      "tribes": [
+        {
+          "name": "Saora",
+          "note": "The Saora tribe is a prominent group in the undivided Ganjam district and remains a subject of research and interest in the region. "
+        },
+        {
+          "name": "Kandha Gauda",
+          "note": "A specific group within the Kandha community found in the district. "
+        }
+      ],
+      "images": [
+        "image_2025-09-05_191334040.png",
+        "1000139186.jpg",
+        "1000139193.jpg"
+      ],
+      "tags": [
+        "textile",
+        "festival",
+        "coast"
+      ],
+      "best_time": "Oct–Feb",
+      "rating": 4.5,
+      "accessibility": {
+        "wheelchair_accessible": false,
+        "audio_guides": false
+      }
+    },
+    {
+      "name": "Kandhamal",
+      "slug": "kandhamal-odisha",
+      "state": "Odisha",
+      "category": "cultural",
+      "description": "Kandhamal — hill district famous for tribal cultures, Dokra craft and scenic hill stations like Daringbadi.",
+      "fun_fact": "Called 'Kashmir of Odisha' for its pine forests in Daringbadi.",
+      "festivals": [
+        {
+          "name": "Kandhamal Shivratri",
+          "description": "Local Shivratri celebrations with tribal elements."
+        }
+      ],
+      "crafts": [
+        {
+          "name": "Dokra",
+          "description": "Metal casting in lost-wax technique."
+        }
+      ],
+      "tribes": [
+        {
+          "name": "Kandha",
+          "note": "Major tribal group."
+        },
+        {
+          "name": "Dongria Kondh",
+          "note": "Traditional horticulture practices."
+        }
+      ],
+      "images": [
+        "1000139203.jpg",
+        "1000139212.jpg",
+        "1000139215.jpg"
+      ],
+      "tags": [
+        "hill",
+        "tribal",
+        "crafts"
+      ],
+      "best_time": "Oct–Mar",
+      "rating": 4.4,
+      "accessibility": {
+        "wheelchair_accessible": false,
+        "audio_guides": false
+      }
+    },
+    {
+      "name": "Koraput",
+      "slug": "koraput-odisha",
+      "state": "Odisha",
+      "category": "cultural",
+      "description": "Koraput — tribal heartland with Kotpad weave, Duduma falls, and rich tribal festivals like Parab.",
+      "fun_fact": "Kotpad fabrics are dyed with natural dyes and show tribal motifs.",
+      "festivals": [
+        {
+          "name": "Parab",
+          "description": "District-level festival showcasing tribes."
+        }
+      ],
+      "crafts": [
+        {
+          "name": "Kotpad Weaving",
+          "description": "Handloom with natural dyes."
+        }
+      ],
+      "tribes": [
+        {
+          "name": "Bonda",
+          "note": "Known for distinctive ornaments."
+        },
+        {
+          "name": "Gadaba",
+          "note": "Famous for Dhemsa dance."
+        }
+      ],
+      "images": [
+        "WhatsApp Image 2025-09-06 at 10.37.56.jpeg",
+        "WhatsApp Image 2025-09-06 at 10.37.56 (1).jpeg",
+        "WhatsApp Image 2025-09-06 at 10.37.57.jpeg"
+      ],
+      "tags": [
+        "tribal",
+        "weaving",
+        "waterfall"
+      ],
+      "best_time": "Oct–Feb",
+      "rating": 4.6,
+      "accessibility": {
+        "wheelchair_accessible": false,
+        "audio_guides": false
+      }
+    }
+  ]
+}

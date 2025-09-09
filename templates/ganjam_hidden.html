@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-4">Hidden Jewels of Ganjam</h1>
+
+<div class="space-y-6">
+  <div>
+    <h2 class="text-xl font-semibold">Blackbuck Conservation Villages</h2>
+    <p>70+ villages in the Eastern Ghats conserve blackbucks for centuries, especially Bhetnoi village.</p>
+    <img src="{{ url_for('static', filename='img/blackbuck.jpg') }}" alt="Blackbuck in Ganjam" class="rounded shadow mt-2">
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold">Taptapani Hot Springs</h2>
+    <p>Hot sulfur springs with medicinal value surrounded by scenic hills.</p>
+    <img src="{{ url_for('static', filename='img/taptapani.jpg') }}" alt="Taptapani Hot Springs" class="rounded shadow mt-2">
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold">Tampara Lake</h2>
+    <p>Freshwater lake offering boating and peaceful nature walks.</p>
+    <img src="{{ url_for('static', filename='img/tampara.jpg') }}" alt="Tampara Lake" class="rounded shadow mt-2">
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold">Temples & Forts</h2>
+    <p>Kalijai Temple on Chilika Lake, Jaugada Fort from Mauryan times, Balakumari Temple, Panchama Temple, Siddha Bhairabi Temple, and more historic shrines.</p>
+    <img src="{{ url_for('static', filename='img/temples_ganjam.jpg') }}" alt="Temples in Ganjam" class="rounded shadow mt-2">
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold">Waterfalls & Beaches</h2>
+    <p>Bariapathara, Budhakhol, Bagha Chanchada waterfalls, and Sonapur beach — perfect for nature lovers.</p>
+    <img src="{{ url_for('static', filename='img/waterfalls_beach.jpg') }}" alt="Waterfalls and Beaches in Ganjam" class="rounded shadow mt-2">
+  </div>
+</div>
+{% endblock %}

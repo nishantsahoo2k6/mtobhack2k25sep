@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-4">Art & Culture of Ganjam</h1>
+
+<div class="space-y-4">
+  <p><strong>Silk Saree Weaving:</strong> Ganjam, known as the "Silk City," produces Patto and Bomkai sarees with ceremonial importance.</p>
+  <p><strong>Ganjam Fish (Pitala Macha):</strong> Brass fish toys crafted by Kansari artisans, symbolic in marriages.</p>
+  <p><strong>Bomkai Silk Sarees:</strong> Blend tribal motifs with elegant weaving traditions, admired across Odisha.</p>
+  <p><strong>Stone Carving:</strong> Traditional temple sculptures crafted by hereditary artisans.</p>
+  <p><strong>Palm Leaf Paintings:</strong> Delicate decorative art tied to Ganjam’s cultural identity.</p>
+</div>
+
+<img src="{{ url_for('static', filename='img/art_ganjam.jpg') }}" alt="Art and Culture of Ganjam" class="rounded shadow mt-4">
+{% endblock %}

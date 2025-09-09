@@ -1,0 +1,20 @@
+{% extends 'base.html' %}{% block content %}
+<div class="bg-white rounded p-6">
+  <h2 class="text-xl font-bold">Quick Quiz</h2>
+  <p class="mt-2">{{ q.prompt }}</p>
+  <div class="mt-4 space-y-2">
+    {% for c in q.choices %}
+      <button onclick="check('{{ c }}')" class="w-full text-left p-2 border rounded">{{ c }}</button>
+    {% endfor %}
+  </div>
+  <div id="result" class="mt-4 text-sm text-gray-700"></div>
+</div>
+<script>
+function check(choice){
+  const ans = "{{ q.answer }}";
+  const res = document.getElementById('result');
+  if(choice === ans){ res.textContent = 'Correct! ' + "{{ q.explain }}"; res.style.color = 'green'; }
+  else { res.textContent = 'Not quite — correct answer: ' + ans; res.style.color = 'crimson'; }
+}
+</script>
+{% endblock %}

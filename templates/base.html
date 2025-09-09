@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mystic Tribes of Odisha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="relative min-h-screen text-gray-900">
+  <!-- 🔹 Background image with 30% opacity -->
+  <div class="absolute inset-0">
+    <img src="{{ url_for('static', filename='images/odisha.jpg') }}" 
+         class="w-full h-full object-cover opacity-100" 
+         alt="">
+  </div>
+
+  <!-- 🔹 Website content stays above background -->
+  <div class="relative">
+    <header class="bg-gradient-to-r from-blue-200 via-blue-600 to-blue-200 text-white">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="{{ url_for('index') }}" class="font-extrabold text-2xl">Mystic Tribes of Odisha</a>
+        <nav class="space-x-4">
+          <a href="{{ url_for('index') }}" class="hover:underline">Home</a>
+          <a href="{{ url_for('quiz') }}" class="hover:underline">Quiz</a>
+          <a href="{{ url_for('random_dest') }}" class="hover:underline">Surprise Me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-4" id="main">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="max-w-6xl mx-auto p-4 text-sm text-white">
+      <p>Mystic Tribes of Odisha — Hackathon demo • Built with ❤️ • Images may be for demo only</p>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}{% block content %}
+<section class="mb-6">
+  <h1 class="text-3xl font-bold text-white">Mystic Tribes of Odisha : Your gateway to local and offbeat adventures.</h1>
+  <form method="get" class="flex gap-2 mb-4">
+    <input name="q" value="{{ q }}" placeholder="Search for districts..." class="border rounded p-2 flex-1">
+    <select name="category" class="border rounded p-2">
+      <option value="">All Categories</option>
+      {% for c in categories %}<option value="{{ c }}" {% if c==category %}selected{% endif %}>{{ c|capitalize }}</option>{% endfor %}
+    </select>
+    <button class="bg-indigo-600 text-white px-4 rounded">Search</button>
+  </form>
+</section>
+
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  {% for d in results %}
+  <article class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden">
+    <a href="{{ url_for('destination', slug=d.slug) }}" class="block">
+      <img src="{{ url_for('static', filename='images/' + (d.images[0] if d.images else 'placeholder.jpg')) }}" alt="{{ d.name }}" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-semibold text-xl">{{ d.name }}</h3>
+        <p class="text-sm text-gray-600">{{ d.state }} • {{ d.category }}</p>
+        <p class="mt-2 text-gray-700">{{ d.description[:120] }}{% if d.description|length>120 %}...{% endif %}</p>
+        <div class="mt-3 flex items-center justify-between">
+          <div class="text-sm text-gray-600">⭐ {{ d.rating }}</div>
+          <div class="text-sm text-gray-600">{{ d.best_time or 'Any time' }}</div>
+        </div>
+      </div>
+    </a>
+  </article>
+  {% endfor %}
+</section>
+
+<script>
+document.getElementById('spinBtn').addEventListener('click', function(){
+  this.disabled = true; this.textContent = 'Spinning... 🌍';
+  setTimeout(()=> { window.location = "{{ url_for('random_dest') }}"; }, 900);
+});
+</script>
+{% endblock %}
