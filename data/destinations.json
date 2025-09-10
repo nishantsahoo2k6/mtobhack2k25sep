@@ -133,7 +133,7 @@
       "slug": "ganjam-odisha",
       "state": "Odisha",
       "category": "cultural",
-      "thumb": "images/ganjam1.jpg",
+      "thumb": "images/ganjam.jpg",
       "description": "Ganjam district — known for rich textile traditions, Danda Nacha, Kandhei Jatra, Bharata Lila, coastal ecotourism and vibrant crafts.",
       "fun_fact": "Famous for silk Patto sarees, Bomkai weaving, and brass 'pitala macha' (fish crafts).",
       "festivals": [
@@ -236,7 +236,14 @@
         }
       ],
       "gallery": [
-        "images/ganjam1.jpg"
+        "images/bharat.jpg",
+        "images/blackbuck.jpg",
+        "images/bomkai.jpg",
+        "images/chilika.jpg",
+        "images/dal.jpg",
+        "images/danda.jpg",
+        "images/olive.jpg",
+        "images/palm.jpg"
       ],
       "rating": 4.5,
       "best_time": "Oct–Feb"
