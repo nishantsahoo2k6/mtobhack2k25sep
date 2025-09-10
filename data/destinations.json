@@ -31,36 +31,102 @@
       "best_time": "Oct–Feb"
     },
 
+    
+      {
+  "name": "Kandhamal",
+  "slug": "kandhamal-odisha",
+  "state": "Odisha",
+  "category": "cultural",
+  "description": "Kandhamal district — a hilly, tribal-rich region of Odisha known for its unique tribal cultures (Kandha, Kutia Kondh, Dongria/Rongria Kondh), pine forests, scenic hill station Daringbadi, and famous Kandhamal Haldi (turmeric, GI-tagged).",
+  "fun_fact": "Kandhamal is world-famous for Kandhamal Haldi (turmeric, GI-tagged).",
+  "festivals": [
     {
-      "name": "Kandhamal",
-      "slug": "kandhamal-odisha",
-      "state": "Odisha",
-      "category": "cultural",
-      "thumb": "images/kandhamal1.jpg",
-      "description": "Kandhamal — hill district famous for tribal cultures, Dokra craft, and scenic hill stations like Daringbadi.",
-      "fun_fact": "Known for scenic hilltop views and tribal handicrafts.",
-      "festivals": [
-        {
-          "name": "Local Tribal Festivals",
-          "description": "Various tribal celebrations connected to local harvests and traditions; dances and rituals are common."
-        }
-      ],
-      "tribes": [
-        { "name": "Kandha", "description": "A major tribal community in Kandhamal known for distinct cultural practices." },
-        { "name": "Khond", "description": "An indigenous group present in the region." }
-      ],
-      "crafts": [
-        { "name": "Dokra Metalwork", "description": "Traditional lost-wax metal casting used to create decorative and ritual objects." }
-      ],
-      "hidden_jewels": [
-        { "name": "Daringbadi Hill Station", "description": "Often called the 'Kashmir of Odisha' for its pleasant climate." }
-      ],
-      "gallery": [
-        "images/kandhamal1.jpg"
-      ],
-      "rating": 4.4,
-      "best_time": "Oct–Mar"
+      "name": "Meriah festival",
+      "description": "It was a ritual festival of the Kondhs, dedicated to their Earth Goddess (Tari Penu / Dharni Penu) for ensuring fertility, good harvests, and community well-being.\n\nThe central feature was the human sacrifice (Meriah sacrifice) in ancient times. The victim (often called Meriah) was offered to the goddess.",
+      "images":[
+      { "file": "images/meriyah.jpg", "caption": "Villagers Performing the ritual." }
+    ]
     },
+    {
+      "name": "Maranga Laka",
+      "description": "Maranga Laka is a seasonal ritual offering where the Kondh people prepare cakes made from mohula flowers (from the mahula tree, also known as mahua) and present them to the village deity. This occurs during April to May, aligning with the collection of forest produce and marking the renewal of natural abundance."
+    },
+    {
+      "name": "Kedu Laka",
+      "description": "Dedicated to Dharni Penu (the Earth Goddess).\n\nThe Kondhs believe that Mother Earth must be fed with blood so that she remains fertile, ensuring good crops, prosperity, and protection of the community.\n\nEarlier, human sacrifice (Meriah) was part of it, but now it has been replaced by the sacrifice of buffaloes, goats, fowls, and pigs."
+    },
+    {
+      "name": "Bagha Nacha",
+      "description": "Performed in the form of a tiger (Bagha) to represent strength, protection, and the forest spirit. Symbolizes the tribal belief that the tiger is both a protector and a fearsome power.\n\nPerformers paint their bodies with yellow and black stripes, resembling a tiger’s skin. They wear masks or painted faces, sometimes with tails made of cloth or rope. The entire look is so realistic that from a distance, they resemble actual tigers. Performed to the beats of tribal drums (dhol, nagara, and mahuri) and in groups with synchronized, rhythmic steps."
+    },
+    {
+      "name": "Kedu Dance",
+      "description": "In earlier times, the Meriah sacrifice (human sacrifice) was a part of the ritual, later replaced by buffalo sacrifice. It is performed in honor of Dharani Penu (Mother Earth Goddess). It is done as a thanksgiving to Mother Earth for fertility and good harvest."
+    }
+  ],
+  "tribes": [
+    {
+      "name": "Pano",
+      "description": "Pano Tribe often live alongside Kandha (Kondh) tribes and share cultural elements with them. Traditionally, they have served as artisans, weavers, drummers, and laborers in tribal societies."
+    },
+    {
+      "name": "Kandha (Kondh)",
+      "description": "The major tribal group of Kandhamal, central to the district's cultural and ritual life. Many of the district's festivals and rituals (including Meriah, Kedu Laka, Maranga Laka) are rooted in Kandha traditions."
+    },
+    {
+      "name": "Kutia Kondh",
+      "description": "The Kutia Kondh are a Particularly Vulnerable Tribal Group (PVTG) of Odisha. They are a subgroup of the larger Kondh (Kandha) tribe. They mainly live in the Tumudibandha, Belghar, and Lanjigarh areas of Kandhamal and Kalahandi districts. They practice shifting cultivation (podu chasa) — growing millets, maize, pulses, turmeric — and depend on forests for food (tubers, fruits, honey), fuelwood, and medicinal plants. Rituals often include animal sacrifice (buffalo, goats, fowls) to appease deities."
+    },
+    {
+      "name": "Rongria / Dongria Kondh",
+      "description": "The Dongria (Rongria) Kondh are one of the most well-known Particularly Vulnerable Tribal Groups (PVTGs) of Odisha. They mainly inhabit the Niyamgiri Hills. Their supreme deity is Niyam Raja (Niyamraja), the protector god of Niyamgiri Hills."
+    }
+  ],
+  "crafts": [
+    {
+      "name": "Dokra & Bamboo Crafts",
+      "description": "Local tribal handicrafts such as dokra metalwork (lost-wax technique), bamboo weaving and tribal jewelry are significant in Kandhamal's cultural economy."
+    }
+  
+  ],
+  "hidden_jewels": [
+    {
+      "name": "Putundi Waterfall",
+      "description": "The waterfall is formed by the Bada Saluki River, which plunges down nearly 60 ft (18 meters) amidst dense forests. It’s a popular picnic spot, especially during winter and post-monsoon when the water flow is strong. Local people consider the area around the waterfall sacred and often visit for small rituals or festivals."
+    },
+    {
+      "name": "Ludu Waterfall",
+      "description": "It lies deep inside the forest, surrounded by hills and tribal villages, making it a relatively less explored destination. Water falls from a rocky hill into a natural pool, creating a refreshing picnic spot. Dense forests and chirping birds add to the charm of the place. Still less commercialized, so it retains its raw natural beauty."
+    },
+    {
+      "name": "Mandasaru",
+      "description": "Mandasaru is one of the hidden natural treasures of Kandhamal district, often called the \"Silent Valley of Odisha\" for its untouched wilderness and breathtaking views. It is home to rare medicinal plants, orchids, and wildlife and is a hotspot for eco-tourism."
+    },
+    {
+      "name": "Daringbadi",
+      "description": "Around 915 meters (3,000 ft) above sea level. The only hill station of Odisha, famous for its pine forests, coffee plantations, and occasional snowfall in peak winter. Inhabited mainly by the Kandha and Kutia Kondh tribes. Visitors can experience their traditional lifestyle, crafts, and festivals."
+    },
+    {
+      "name": "Baraladevi Temple",
+      "description": "The temple is dedicated to Goddess Baraladevi, considered a powerful form of Shakti (Mother Goddess). She is worshipped as the protector of the region and holds deep reverence among the tribal and local communities. The temple is an important Shakti Peetha in Kandhamal."
+    },
+    {
+      "name": "Belghar",
+      "description": "Surrounded by forests and hills. Famous for Kutia Kondh tribes and wildlife (elephants, bison). Belghar Nature Camp is an eco-tourism hub. Tribal villages here allow visitors to experience Kondh and Pano traditions, music, dance, and festivals. The area is also known for dokra art, bamboo crafts, and tribal jewelry."
+    },
+    {
+      "name": "Tribal Villages & Eco Camps",
+      "description": "Small tribal villages across Kandhamal offer authentic cultural experiences — traditional music, dance, dokra art, bamboo crafts, and tribal jewelry. Eco-camps and nature walks provide opportunities to observe wildlife and learn about forest-dependent livelihoods."
+    }
+  ],
+  "gallery": [
+    "images/kandhamal1.jpg",
+    "images/kandhamal2.jpg",
+    "images/kandhamal3.jpg"
+  ],
+  "rating": 4.4,
+  "best_time": "Oct–Mar"
+},
 
     {
       "name": "Ganjam",
